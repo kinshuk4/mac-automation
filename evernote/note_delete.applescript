@@ -1,0 +1,27 @@
+on run {note_name}
+	
+	run script (POSIX file "/Users/IceHe/Documents/AppleScript/Evernote/evernote_launch.applescript")
+	
+	tell application "Evernote"
+		
+		set note_found to find notes "intitle:\"" & note_name & "\""
+		
+		if (count of note_found) = 1 then
+			set dialogReply to display alert Â
+				"Warning!" message ("Note named {" & note_name & "}") Â
+				as warning Â
+				buttons {"Cancel", "Delete"} Â
+				default button 1 Â
+				giving up after 5
+			
+			if "Delete" = (button returned of result) then
+				delete item 1 of note_found
+				return true
+			end if
+		end if
+		
+		return false
+		
+	end tell
+	
+end run

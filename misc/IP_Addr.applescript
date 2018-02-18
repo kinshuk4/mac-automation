@@ -1,0 +1,1 @@
+return run script (POSIX file "/Users/IceHe/Documents/AppleScript/Lib/ip_addr.applescript") with parameters {true}

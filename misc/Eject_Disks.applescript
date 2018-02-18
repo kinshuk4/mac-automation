@@ -1,0 +1,1 @@
+return run script (POSIX file "/Users/IceHe/Documents/AppleScript/Lib/eject_disks.applescript")

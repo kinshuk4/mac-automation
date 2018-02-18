@@ -1,0 +1,1 @@
+return run script (POSIX file "/Users/IceHe/Documents/AppleScript/Stat/stat_day.applescript") with parameters {current date}

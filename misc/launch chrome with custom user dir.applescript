@@ -1,0 +1,1 @@
+do shell script "/Applications/Google\\ Chrome46.app/Contents/MacOS/Google\\ Chrome --user-data-dir=/Users/apple/Library/Application\\ Support/Google/Chrome46 > /dev/null 2>&1 &"
