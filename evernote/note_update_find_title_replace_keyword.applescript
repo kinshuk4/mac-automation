@@ -1,10 +1,10 @@
 on run argv
 	if (count of argv) > 2 then
-        set note_name to item 1  of argv
-    else
-        set note_name to text returned of (display dialog "Enter the text to search:" default answer "")
-    end if
-		
+		set note_name to item 1 of argv
+	else
+		set note_name to text returned of (display dialog "Enter the text to search:" default answer "")
+	end if
+	
 	tell application "Evernote"
 		
 		set notes_found to (find notes ("intitle:\"" & note_name & "\""))
@@ -26,10 +26,10 @@ on run argv
 end run
 
 on replace_chars(this_text, search_string, replacement_string)
- set AppleScript's text item delimiters to the search_string
- set the item_list to every text item of this_text
- set AppleScript's text item delimiters to the replacement_string
- set this_text to the item_list as string
- set AppleScript's text item delimiters to ""
- return this_text
+	set AppleScript's text item delimiters to the search_string
+	set the item_list to every text item of this_text
+	set AppleScript's text item delimiters to the replacement_string
+	set this_text to the item_list as string
+	set AppleScript's text item delimiters to ""
+	return this_text
 end replace_chars
