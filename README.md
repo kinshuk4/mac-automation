@@ -1,5 +1,8 @@
 # evernote-automation
-This repo contains the appleScripts which automate the mundane tasks related to applications - Evernote and Chrome.
+This repo contains the appleScripts which automate the mundane tasks related to applications - 
+- Evernote 
+- Chrome.
+- OneNote
 
 
 **Apple Script Guide**
