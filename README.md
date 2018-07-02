@@ -9,7 +9,8 @@ This repo contains the appleScripts which automate the mundane tasks related to 
 - [AppleScript Quick Start](https://icehe.me/applescript/applescript/)
 - [AppleScript Evernote macOS](https://icehe.me/applescript/evernote_osx/)
 
-
+**Setup Mac**
+- [Mac Setup](https://github.com/kinshuk4/DesktopSetup)
 
 **References:**
 - https://github.com/bammoo/applescripts
